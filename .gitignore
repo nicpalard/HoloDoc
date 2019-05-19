@@ -27,10 +27,9 @@ obj/
 *.userprefs
 /*.csproj
 *.csproj
+*.vcxproj.filters
 *.pidb
 *.suo
-/*.sln
-*.sln
 *.user
 *.unityproj
 *.ipch
@@ -39,7 +38,29 @@ obj/
 *.tlog
 *.log
 *.idb
+*.ipdb
+*.iobj
+*.exp
 *.opendb
+
+Release/
+Debug/
 
 Assets/ThirdParty/
 Assets/ThirdParty.meta
+
+node_modules/
+
+# ============== #
+# Personnal Temp #
+# ============== #
+*~
+*_[Tt]ests/
+*.[Tt][Mm][Pp]
+
+# ============== #
+#  Unit Testing  #
+# ============== #
+**/coverage/
+**/mochawesome-report/
+**/.nyc_output/
